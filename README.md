@@ -40,5 +40,5 @@ following environment variables:
 - NODE_ENV= **`stage of the project`**
 
 4. Run **`npm install`** to install the required packages.
-5. The API server will start running on http://localhost:5000. You can now send HTTP requests to the API endpoints.
+5. The API server will start running on http://localhost:3000. You can now send HTTP requests to the API endpoints.
 
