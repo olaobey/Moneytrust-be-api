@@ -1,0 +1,46 @@
+{
+  "name": "moneytrust-be-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for user registration, authentication and account managemen, supporting both individual and corporate users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon start",
+    "start-pretty": "node app.js | pino-pretty "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaobey/Moneytrust-be-api.git"
+  },
+  "author": "Ajeigbe olaoluwa Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olaobey/Moneytrust-be-api/issues"
+  },
+  "homepage": "https://github.com/olaobey/Moneytrust-be-api#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-pino-logger": "^7.0.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemailer": "^6.10.0",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "pino-pretty": "^13.0.0"
+  }
+}
